@@ -36,7 +36,11 @@ class CashRegister
   end 
   
   def void_last_transaction
+<<<<<<< HEAD
      @total -= @last_transaction
+=======
+       total -= add_item
+>>>>>>> 9a47f5b32069e39ea1c8564c8d8f95a2ea438d7c
   
   end 
 end 
